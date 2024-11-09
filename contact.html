@@ -62,9 +62,8 @@
                                     </div>
                                     <!-- Email address input-->
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                        <label for="email">Adresse mail</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" aria-describedby="emailFeedback" />
+                                        <div class="invalid-feedback" id="emailFeedback" data-sb-feedback="email:required">An email is required.</div>
                                         <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                                     </div>
                                     <!-- Phone number input-->
